@@ -20,4 +20,4 @@ jobs:
         run: echo " The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
 
       - name: Run Python script
-        run: python job.py
+        run: python mean.py
